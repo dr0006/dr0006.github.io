@@ -37,3 +37,7 @@ docs文件夹下仅为生成的静态文件，自动化部署的仓库并未公�
 3. 部署到GitHub Pages
 4. 每天都会自动部署一遍，用于刷新伪静态文件，docs下的文件
 
+## BUG发现和一些记录
+
+详情请见 markdown：[someRun.md](./someRun.md)
+
