@@ -1,6 +1,7 @@
 # dr006的小窝 🏠
 
 [![Notion](https://img.shields.io/badge/CMS-Notion-black)](https://www.notion.so/)
+[![NotionNext](https://img.shields.io/badge/Project-NotionNext-blue)](https://github.com/tangly1024/NotionNext)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-active-brightgreen)](https://dr0006.github.io)
 [![NextJS](https://img.shields.io/badge/Framework-Next.js-blue)](https://nextjs.org/)
 
@@ -23,11 +24,14 @@
 - 内容源：[Notion](https://www.notion.so/)
 - 部署平台：[GitHub Pages](https://pages.github.com/)
 - 主题：NotionNext heo主题
+- NotionNext：[GitHub 地址](https://github.com/tangly1024/NotionNext)
 
 ## 🚀 部署方式
 
 本项目通过GitHub Actions自动部署到GitHub Pages：
+docs文件夹下仅为生成的静态文件，自动化部署的仓库并未公开，如果你有相关需要，可参考NotionNext仓库
 
+私有仓库dr0006/drNotionSync 负责每天自动生成相应静态文件
 1. 将代码推送到main分支
 2. GitHub Actions自动构建静态文件
 3. 部署到GitHub Pages
