@@ -4,9 +4,9 @@
     Allow: /
   
     # Host
-    Host: http://preview.tangly1024.com
+    Host: http://dr006.top
   
     # Sitemaps
-    Sitemap: http://preview.tangly1024.com/sitemap.xml
+    Sitemap: http://dr006.top/sitemap.xml
   
     
