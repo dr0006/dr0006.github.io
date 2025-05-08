@@ -7,11 +7,11 @@
 
 ## 📝 项目简介
 
-这是一个基于GitHub Pages和NotionNext搭建的个人博客网站。**欢迎访问**！
+这是一个基于GitHub/cloudflare Pages和NotionNext搭建的个人博客网站。**欢迎访问**！
 
 通过将Notion作为CMS（内容管理系统），实现了简单高效的博客内容管理。
 
-本人比较喜欢在Notion上写内容，比如文章、笔记、想法等，然后通过NotionNext将其转换为静态文件，再部署到GitHub Pages上。
+本人比较喜欢在Notion上写内容，比如文章、笔记、想法等，然后通过NotionNext将其转换为静态文件，再部署到GitHub/cloudflare Pages上。
 
 ## 🌐 域名信息
 
