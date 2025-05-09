@@ -6,22 +6,27 @@
     xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
     <loc>http://dr006.top</loc>
-    <lastmod>2025-05-08</lastmod>
+    <lastmod>2025-05-09</lastmod>
     <changefreq>daily</changefreq>
     </url>
     <url>
     <loc>http://dr006.top/archive</loc>
-    <lastmod>2025-05-08</lastmod>
+    <lastmod>2025-05-09</lastmod>
     <changefreq>daily</changefreq>
     </url>
     <url>
     <loc>http://dr006.top/category</loc>
-    <lastmod>2025-05-08</lastmod>
+    <lastmod>2025-05-09</lastmod>
     <changefreq>daily</changefreq>
     </url>
     <url>
     <loc>http://dr006.top/tag</loc>
-    <lastmod>2025-05-08</lastmod>
+    <lastmod>2025-05-09</lastmod>
+    <changefreq>daily</changefreq>
+    </url>
+    <url>
+    <loc>http://dr006.top/article/movie-7</loc>
+    <lastmod>2025-05-09</lastmod>
     <changefreq>daily</changefreq>
     </url>
     <url>
@@ -30,7 +35,7 @@
     <changefreq>daily</changefreq>
     </url>
     <url>
-    <loc>http://dr006.top/Topone</loc>
+    <loc>http://dr006.top/article/post2557-3</loc>
     <lastmod>2025-05-07</lastmod>
     <changefreq>daily</changefreq>
     </url>
@@ -40,32 +45,32 @@
     <changefreq>daily</changefreq>
     </url>
     <url>
-    <loc>http://dr006.top/article/post2557-9</loc>
+    <loc>http://dr006.top/Topone</loc>
     <lastmod>2025-05-07</lastmod>
     <changefreq>daily</changefreq>
     </url>
     <url>
-    <loc>http://dr006.top/article/post2557-8</loc>
+    <loc>http://dr006.top/article/movie-6</loc>
     <lastmod>2025-05-07</lastmod>
     <changefreq>daily</changefreq>
     </url>
     <url>
-    <loc>http://dr006.top/article/post2557-7</loc>
+    <loc>http://dr006.top/article/movie-5</loc>
     <lastmod>2025-05-07</lastmod>
     <changefreq>daily</changefreq>
     </url>
     <url>
-    <loc>http://dr006.top/article/post2557-6</loc>
+    <loc>http://dr006.top/article/movie-4</loc>
     <lastmod>2025-05-07</lastmod>
     <changefreq>daily</changefreq>
     </url>
     <url>
-    <loc>http://dr006.top/article/post2557-4</loc>
+    <loc>http://dr006.top/article/movie-3</loc>
     <lastmod>2025-05-07</lastmod>
     <changefreq>daily</changefreq>
     </url>
     <url>
-    <loc>http://dr006.top/article/post2557-5</loc>
+    <loc>http://dr006.top/article/movie-2</loc>
     <lastmod>2025-05-07</lastmod>
     <changefreq>daily</changefreq>
     </url>
@@ -95,7 +100,7 @@
     <changefreq>daily</changefreq>
     </url>
     <url>
-    <loc>http://dr006.top/article/post2555-3</loc>
+    <loc>http://dr006.top/article/movie-1</loc>
     <lastmod>2025-05-05</lastmod>
     <changefreq>daily</changefreq>
     </url>
