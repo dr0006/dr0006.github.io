@@ -8,16 +8,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Clear Cloudflare Cache for Articles
+      - name: Clear Cloudflare Cache for Frequently Updated Pages
         run: |
           curl -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_ZONE_ID }}/purge_cache" \
             -H "Authorization: Bearer ${{ secrets.CF_API_TOKEN }}" \
             -H "Content-Type: application/json" \
             --data '{
               "files": [
-                "https://dr006.top/article/*"
+                "https://dr006.top/",
+                "https://dr006.top/category/Article",
+                "https://dr006.top/category/Top",
+                "https://dr006.top/Topone",
+                "https://dr006.top/archive",
+                "https://dr006.top/tag",
+                "https://dr006.top/tag/%E9%9A%8F%E6%84%8F%E8%AE%B0%E5%BD%95",
+                "https://dr006.top/tag/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3",
+                "https://dr006.top/tag/%E5%A8%B1%E4%B9%90%E7%9B%B8%E5%85%B3",
+                "https://dr006.top/article/post2555-2"
               ]
             }'
