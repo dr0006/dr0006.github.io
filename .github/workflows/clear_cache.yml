@@ -1,4 +1,4 @@
-name: Clear Cloudflare Cache
+name: Clear Cloudflare Cache somepage
 
 on:
   workflow_dispatch:  # 手动触发工作流
@@ -23,6 +23,7 @@ jobs:
                 "https://dr006.top/tag",
                 "https://dr006.top/tag/%E9%9A%8F%E6%84%8F%E8%AE%B0%E5%BD%95",
                 "https://dr006.top/tag/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3",
-                "https://dr006.top/tag/%E5%A8%B1%E4%B9%90%E7%9B%B8%E5%85%B3"
+                "https://dr006.top/tag/%E5%A8%B1%E4%B9%90%E7%9B%B8%E5%85%B3",
+                "https://dr006.top/article/post2555-2"
               ]
             }'
