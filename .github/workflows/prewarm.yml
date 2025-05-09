@@ -1,0 +1,29 @@
+name: Prewarm Cloudflare Cache
+
+on:
+  workflow_dispatch:  # 手动触发
+
+jobs:
+  prewarm-cache:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Curl popular pages to warm up cache
+        run: |
+          urls=(
+            "https://dr006.top/"
+            "https://dr006.top/category/Article"
+            "https://dr006.top/category/Top"
+            "https://dr006.top/Topone"
+            "https://dr006.top/archive"
+            "https://dr006.top/tag"
+            "https://dr006.top/tag/%E9%9A%8F%E6%84%8F%E8%AE%B0%E5%BD%95"
+            "https://dr006.top/tag/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3"
+            "https://dr006.top/tag/%E5%A8%B1%E4%B9%90%E7%9B%B8%E5%85%B3"
+            "https://dr006.top/article/post2555-2"
+          )
+
+          for url in "${urls[@]}"; do
+            echo "Warming cache for $url"
+            curl -s -o /dev/null -w "%{http_code}\n" "$url"
+          done
