@@ -1,0 +1,23 @@
+name: Clear Cloudflare Cache
+
+on:
+  workflow_dispatch:  # 手动触发工作流
+
+jobs:
+  clear-cache:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Clear Cloudflare Cache for Articles
+        run: |
+          curl -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_ZONE_ID }}/purge_cache" \
+            -H "Authorization: Bearer ${{ secrets.CF_API_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            --data '{
+              "files": [
+                "https://dr006.top/article/*"
+              ]
+            }'
