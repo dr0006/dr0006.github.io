@@ -6,22 +6,27 @@
     xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
     <loc>http://dr006.top</loc>
-    <lastmod>2025-05-09</lastmod>
+    <lastmod>2025-05-10</lastmod>
     <changefreq>daily</changefreq>
     </url>
     <url>
     <loc>http://dr006.top/archive</loc>
-    <lastmod>2025-05-09</lastmod>
+    <lastmod>2025-05-10</lastmod>
     <changefreq>daily</changefreq>
     </url>
     <url>
     <loc>http://dr006.top/category</loc>
-    <lastmod>2025-05-09</lastmod>
+    <lastmod>2025-05-10</lastmod>
     <changefreq>daily</changefreq>
     </url>
     <url>
     <loc>http://dr006.top/tag</loc>
-    <lastmod>2025-05-09</lastmod>
+    <lastmod>2025-05-10</lastmod>
+    <changefreq>daily</changefreq>
+    </url>
+    <url>
+    <loc>http://dr006.top/article/1efbadfb-6f46-8040-be84-d17038436597</loc>
+    <lastmod>2025-05-10</lastmod>
     <changefreq>daily</changefreq>
     </url>
     <url>
