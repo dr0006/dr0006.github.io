@@ -6,27 +6,22 @@
     xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
     <loc>http://dr006.top</loc>
-    <lastmod>2025-05-11</lastmod>
+    <lastmod>2025-05-12</lastmod>
     <changefreq>daily</changefreq>
     </url>
     <url>
     <loc>http://dr006.top/archive</loc>
-    <lastmod>2025-05-11</lastmod>
+    <lastmod>2025-05-12</lastmod>
     <changefreq>daily</changefreq>
     </url>
     <url>
     <loc>http://dr006.top/category</loc>
-    <lastmod>2025-05-11</lastmod>
+    <lastmod>2025-05-12</lastmod>
     <changefreq>daily</changefreq>
     </url>
     <url>
     <loc>http://dr006.top/tag</loc>
-    <lastmod>2025-05-11</lastmod>
-    <changefreq>daily</changefreq>
-    </url>
-    <url>
-    <loc>http://dr006.top/article/1efbadfb-6f46-8040-be84-d17038436597</loc>
-    <lastmod>2025-05-10</lastmod>
+    <lastmod>2025-05-12</lastmod>
     <changefreq>daily</changefreq>
     </url>
     <url>
@@ -145,6 +140,11 @@
     <changefreq>daily</changefreq>
     </url>
     <url>
+    <loc>http://dr006.top/article/movie-21</loc>
+    <lastmod>2025-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    </url>
+    <url>
     <loc>http://dr006.top/article/movie-7</loc>
     <lastmod>2025-05-05</lastmod>
     <changefreq>daily</changefreq>
@@ -166,6 +166,11 @@
     </url>
     <url>
     <loc>http://dr006.top/article/movie-17</loc>
+    <lastmod>2025-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    </url>
+    <url>
+    <loc>http://dr006.top/article/movie-22</loc>
     <lastmod>2025-05-05</lastmod>
     <changefreq>daily</changefreq>
     </url>
